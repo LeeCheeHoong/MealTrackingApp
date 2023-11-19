@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="100dp"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="10dp"
+    tools:context=".MenuItemFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+            <ImageView
+                android:id="@+id/meal_image"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="190dp"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/mealType"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:text="Breakfast"/>
+            <TextView
+                android:id="@+id/mealTitle"
+                android:layout_marginTop="5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Menu" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="100dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btnViewRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="View"/>
+
+            <Button
+                android:id="@+id/btnChangeRecipe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Change"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

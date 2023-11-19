@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">mealtr</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="menu_open">menu open</string>
+    <string name="menu_close">menu close</string>
+
+    <string-array name="gender">
+        <item>Gender</item>
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="activityLevel">
+        <item>Activity Level</item>
+        <item>Not Active</item>
+        <item>Lightly Active</item>
+        <item>Moderately Active</item>
+        <item>Very Active</item>
+    </string-array>
+</resources>

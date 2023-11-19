@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors -->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <!-- Text and Background Colors -->
+    <color name="colorTextPrimary">#000000</color>
+    <color name="colorTextSecondary">#808080</color>
+    <color name="colorBackground">#FFFFFF</color>
+
+    <!-- Custom Colors -->
+    <color name="colorCustom1">#FF5722</color>
+    <color name="colorCustom2">#4CAF50</color>
+    <color name="colorCustom3">#FF9800</color>
+
+    <!-- Palette Colors -->
+    <color name="colorPalette1">#2196F3</color>
+    <color name="colorPalette2">#FFC107</color>
+    <color name="colorPalette3">#795548</color>
+    <color name="colorPalette4">#E91E63</color>
+    <color name="colorPalette5">#009688</color>
+</resources>

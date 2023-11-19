@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="400dp"
+    android:layout_height="170dp"
+    tools:context=".GeneratedMenuFragment">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="300dp"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/menuList_menuName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textAppearance="@style/TextAppearance.AppCompat.Large"
+            android:text="Menu 1" />
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/menuList_menuCalories"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Calories: "
+            />
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/menuList_targetWeight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Target Weight: "
+            />
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/menuList_createdDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Created on: "
+            />
+
+        <TextView
+            android:layout_margin="5dp"
+            android:id="@+id/menuList_planDuration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Duration: "
+            />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:layout_width="100dp"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/menuList_viewMenu"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="View"/>
+
+        <Button
+            android:id="@+id/menuList_deleteMenu"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Delete"/>
+
+    </LinearLayout>
+
+</LinearLayout>
